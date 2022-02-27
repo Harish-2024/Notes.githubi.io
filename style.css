@@ -16,7 +16,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    background: url(/BG.jpg) repeat-y;
+    background: url(./BG.jpg) repeat-y;
 }
 
 
