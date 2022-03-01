@@ -22,8 +22,8 @@ const addNewNote = (text = "") => {
 
 
     const htmlData = `<div class="operation">
-    <button class="delete"><i class="fa-solid fa-trash-can"></i></button>
-    <button class="edit" ><i class="fa-solid fa-pen-to-square" ></i></button>
+    <button class="delete" title="Delete"><i class="fa-solid fa-trash-can"></i></button>
+    <button class="edit" title="Edit"><i class="fa-solid fa-pen-to-square" ></i></button>
 </div>
 <div class="main ${text ? "" : "hidden"}" ></div>
 <textarea class=" ${text ? "hidden" : ""}" cols="23" rows="10"></textarea>`
